@@ -1,0 +1,48 @@
+@font-face{
+    font-family: poke;
+    src: url(../fonts/Pokemon\ Hollow.ttf);
+}
+body{
+    background-color: blue;
+}
+#titre{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgPoke{
+    width: 200px;
+    margin-bottom: 20px;
+}
+button{
+    margin: 20px;
+    background-color: transparent;
+    border: none;
+    font-family: poke;
+    font-size: 35px;
+    color: rgb(255 202 10);
+}
+#pokeName{
+    border-radius: 50px;
+    height: 35px;
+    text-align: center;
+    background-color: #ffca0a;
+}
+p{
+    display: none;
+}
+#score{
+    font-family: poke;
+    font-size: 30px;
+    color: #ffca0a;
+}
+#result{
+    font-family: poke;
+    font-size: 30px;
+    color: #ffca0a;
+}
